@@ -10,7 +10,7 @@ namespace Bakery.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=PDSK-ONE;Database=BakeryDb;Integrated security=true;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=XXX;Database=BakeryDb;Integrated security=true;Trusted_Connection=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
